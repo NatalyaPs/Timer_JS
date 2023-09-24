@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Таймер (секундомер)</h1>
+        <h3>для начала нажмите Start</h3>
+        <h3>для временной остановки нажмите Pause</h3>
+        <h3>для продолжения после паузы повторно нажмите Start</h3>
+        <h3>для остановки нажмите Stop</h3>
+
+        <div class="timer">
+            <div class="timer__block">
+                <div class="timer__block_time hour">00</div>
+                <div class="timer__block_title">Hourse</div>
+            </div>
+            <div class="timer__block">
+                <div class="timer__block_time minute">00</div>
+                <div class="timer__block_title">Minites</div>
+            </div>
+            <div class="timer__block">
+                <div class="timer__block_time second">00</div>
+                <div class="timer__block_title">Seconds</div>
+            </div>
+            <div class="timer__block">
+                <div class="timer__block_time millisecond">00</div>
+                <div class="timer__block_title">Milliseconds</div>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button class="btn start">Start</button>
+            <button class="btn pause">Pause</button>
+            <button class="btn stop">Stop</button>
+            <!-- <button class="btn">Start</button> -->
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
